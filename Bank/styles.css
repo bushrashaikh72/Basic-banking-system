@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+    /* Adjustments to navbar */
+    .navbar {
+      width: 100%;
+      height: 10vh;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      display: flex;
+      justify-content: flex-end; /* Align navbar items to the right */
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      padding: 0 20px;
+  } 
+  
+  .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+      color: gold;
+  }
+  
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-image: url("image/bank image.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+main section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+main section p {
+  font-size: 1.2em;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+main section h1, main section p {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+ .btn2 {
+  width: 200px;
+  height: 50px; /* Adjust height of button */
+  background-color: silver;
+  color: rgb(13, 11, 11);
+  border: none;
+  border-radius: 5px;
+  margin: 30px;
+  cursor: pointer;
+  line-height: 60px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px black;
+  text-align: center;
+}
+
+ .btn2:hover {
+  background-color: gray;
+}
